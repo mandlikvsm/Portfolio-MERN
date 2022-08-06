@@ -1,0 +1,49 @@
+.projects{
+    background-color: hsl(219, 48%, 8%);
+    min-height: 100vh;
+    padding-top: 15vmax;
+    border: 1px solid white;
+
+}
+
+.projects > h3 {
+    border: 1px solid white;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: hsl(250, 100%, 75%);
+    padding: 2vmax 4vmax;
+    display: flex;
+    border-radius: 100px;
+    align-items: center;
+    left: 50%;
+    transform: translate(-50%, -100vh);
+    animation: projectHeadingAnimation 1s ease-in-out forwards;
+
+}
+.projects > h3 > svg{
+    margin: 1vmax;
+}
+
+.projectWrapper{
+
+    border-top: 100px solid white;
+    border-radius: 300px 300px 0 0;
+    min-height: inherit;
+    justify-content: center;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5vmax;
+
+    overflow-x: hidden;
+
+}
+
+@keyframes projectHeadingAnimation {
+    to{
+        transform: translate(-50%, -50%);
+    }
+    
+}
