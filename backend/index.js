@@ -14,7 +14,7 @@ app.use(cors({
   'origin': '*',
   'methods': '*',
   'credentials': true,
-  'preflightContinue': true
+  'preflightContinue': false
 }));
 
 app.get("/", (req,res) => {
