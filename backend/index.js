@@ -8,13 +8,14 @@ dotenv.config({ path: "./config/config.env" });
 
 connectDatabase();
 
-app.use(cors(
-    {
-        origin: ["*"],
-        methods: ["POST", "GET"],
-        credentials: true
-    }
-));
+app.use(cors({
+  'allowedHeaders': ['sessionId', 'Content-Type', 'Authorization', 'authorization'],
+  'exposedHeaders': ['sessionId'],
+  'origin': ['http://localhost:3000', 'https://portfolio-mern-api.vercel.app'],
+  'methods': 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  'credentials': false,
+  'preflightContinue': false
+}));
 
 app.get("/", (req,res) => {
     res.send("test done");
