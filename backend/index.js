@@ -2,7 +2,7 @@ import app from './app.js';
 import dotenv from 'dotenv';
 import { connectDatabase } from './config/database.js'
 import cloudinary from 'cloudinary';
-const cors = require('cors')
+import cors from 'cors';
 
 dotenv.config({ path: "./config/config.env" });
 
