@@ -10,7 +10,7 @@ connectDatabase();
 
 app.use(cors(
     {
-        origin: ["https://deploy-mern-frontend.vercel.app", "http://localhost:3000"],
+        origin: ["*"],
         methods: ["POST", "GET"],
         credentials: true
     }
