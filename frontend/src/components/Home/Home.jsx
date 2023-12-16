@@ -21,7 +21,7 @@ import {
 } from 'react-icons/si';
 import YoutubeCard from '../YoutubeCard/YoutubeCard';
 
-const Home = ({timelines,youtubes,skills}) => {
+const Home = ({ timelines, youtubes, skills }) => {
 
   useEffect(() => {
 
@@ -95,27 +95,27 @@ const Home = ({timelines,youtubes,skills}) => {
         <div className="homeCubeSkills">
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace1">
-            <img src={skills?.image1?.url} alt="FACE1" />
+            <img src={skills.image1.url} alt="FACE1" />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace2">
-            <img  src={skills?.image2?.url} alt="FACE2" />
+            <img src={skills.image2.url} alt="FACE2" />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace3">
-            <img src={skills?.image3?.url} alt="FACE3" />
+            <img src={skills.image3.url} alt="FACE3" />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace4">
-            <img  src={skills?.image4?.url} alt="FACE4" />
+            <img src={skills.image4.url} alt="FACE4" />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace5">
-            <img  src={skills?.image5?.url} alt="FACE5" />
+            <img src={skills.image5.url} alt="FACE5" />
           </div>
 
           <div className="homeCubeSkillsFaces homeCubeSkillsFace6">
-            <img  src={skills?.image6?.url} alt="FACE6" />
+            <img src={skills.image6.url} alt="FACE6" />
           </div>
         </div>
 
@@ -143,21 +143,21 @@ const Home = ({timelines,youtubes,skills}) => {
         <div className="homeYoutubeWrapper">
 
 
-          {
-            youtubes.map(item =>(
+          {youtubes &&
+            youtubes.map(item => (
 
               <YoutubeCard
                 key={item._id}
-              image={item.image.url}
+                image={item.image.url}
                 title={item.title}
                 url={item.url}
                 id={item._id}
-            />
+              />
             ))
           }
-         
 
-        
+
+
         </div>
 
       </div>
