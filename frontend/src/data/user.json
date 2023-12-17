@@ -1,0 +1,107 @@
+{
+    "_id": "62e7be6d9d26b16e54724f0f",
+    "name": "Vishal Mandlik",
+    "__v": 238,
+    "skills": {
+        "image1": {
+            "public_id": "portfolio/ko11rd3gjqgdq13rgg18",
+            "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659939107/portfolio/ko11rd3gjqgdq13rgg18.png"
+        },
+        "image2": {
+            "public_id": "portfolio/qvrzgmaa2doxu3wf0x6e",
+            "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659939250/portfolio/qvrzgmaa2doxu3wf0x6e.jpg"
+        },
+        "image3": {
+            "public_id": "portfolio/bj5wmtt6rf5axhaidh5k",
+            "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659939363/portfolio/bj5wmtt6rf5axhaidh5k.jpg"
+        },
+        "image4": {
+            "public_id": "portfolio/cbpuzrxj2zjkcpwhtqos",
+            "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659939563/portfolio/cbpuzrxj2zjkcpwhtqos.png"
+        },
+        "image5": {
+            "public_id": "portfolio/tb0a9e9wcq1xh3fas89r",
+            "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659939737/portfolio/tb0a9e9wcq1xh3fas89r.png"
+        },
+        "image6": {
+            "public_id": "portfolio/q2bu3eipcbg4qpnal8it",
+            "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659939847/portfolio/q2bu3eipcbg4qpnal8it.png"
+        }
+    },
+    "about": {
+        "avatar": {
+            "public_id": "portfolio/xazdylpfmpfbyw8h1jkw",
+            "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1702737788/portfolio/xazdylpfmpfbyw8h1jkw.jpg"
+        },
+        "description": "Greetings! I'm  a Full Stack Developer with a penchant for turning ideas into efficient and logical web applications. My expertise revolves around the MERN stack—utilizing React for enchanting frontends, Express and Node.js for orchestrating seamless backend operations, and MongoDB as the wizard behind the database curtain. With a commitment to building captivating user experiences, I design and code attractive frontends that not only meet but exceed expectations. Join me on a journey where technology meets artistry, and every line of code contributes to the symphony of digital innovation.",
+        "name": "Vishal Mandlik",
+        "quote": "In the realm of web development, I'm not just a coder; I'm a Full Stack Alchemist, transforming concepts into digital masterpieces with the magical touch of the MERN stack.",
+        "subtitle": "Crafting Digital Wonders with MERN Magic",
+        "title": "Full Stack Alchemist"
+    },
+    "projects": [
+        {
+            "image": {
+                "public_id": "portfolio/qfithwwcrhdbc2rew5k4",
+                "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1664706103/portfolio/qfithwwcrhdbc2rew5k4.png"
+            },
+            "url": "https://movie-app-by-vishal.netlify.app/",
+            "title": "Movie App",
+            "description": "Simple movies app is designed like netflix and hotstar",
+            "techStack": "React Js",
+            "_id": "6339663819b15472f2f9c72b"
+        },
+        {
+            "image": {
+                "public_id": "portfolio/ig1jpcydvxkbm3rjals4",
+                "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659865391/portfolio/ig1jpcydvxkbm3rjals4.png"
+            },
+            "url": "https://vishals-portfolio.herokuapp.com/",
+            "title": "my-portfolio",
+            "description": "portfolio website with admin panel. dynamically update data",
+            "techStack": "MongoDb,React Js, Express Js, Node Js, Redux-toolkit",
+            "_id": "62ef892f3582cbd4269cb88c"
+        },
+        {
+            "image": {
+                "public_id": "portfolio/empja2oy8ffiw8yocjhn",
+                "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659865238/portfolio/empja2oy8ffiw8yocjhn.png"
+            },
+            "url": "https://stud-front.onrender.com/",
+            "title": "Student Registration System",
+            "description": "Student registration syatem with CRUD operation",
+            "techStack": "MongoDB, React Js, Express Js, Node Js",
+            "_id": "62ef88963582cbd4269cb887"
+        },
+        {
+            "image": {
+                "public_id": "portfolio/qttrcnm7wt39guyyc75k",
+                "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659865132/portfolio/qttrcnm7wt39guyyc75k.png"
+            },
+            "url": "https://roomatez.netlify.app/",
+            "title": "Chat App",
+            "description": "chat with group just log in with google",
+            "techStack": "React Js, firebase",
+            "_id": "62ef882c3582cbd4269cb882"
+        }
+    ],
+    "timeline": [
+        {
+            "title": "Full Stack Web Developer",
+            "description": "\"Hello there! I'm  a seasoned Full Stack Developer with a strong command over the MERN (MongoDB, Express.js, React, Node.js) stack, coupled with SQL and Redux expertise. My journey in the world of web development has been a thrilling ride, where I've seamlessly navigated between front-end and back-end technologies to bring innovative digital solutions to life.",
+            "date": "2022-12-10T00:00:00.000Z",
+            "_id": "657db4d54bef8e94ae09c2be"
+        }
+    ],
+    "youtube": [
+        {
+            "image": {
+                "public_id": "portfolio/wdpfud5x3vxfh0qrbx3r",
+                "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659942997/portfolio/wdpfud5x3vxfh0qrbx3r.png"
+            },
+            "url": "#",
+            "title": "Sample",
+            "_id": "62f0b856090517e2a023c7a3"
+        }
+    ]
+}

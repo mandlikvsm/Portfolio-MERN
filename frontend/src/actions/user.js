@@ -21,10 +21,6 @@ export const getUser = () => async(dispatch)=> {
     }
 }
 
-
-
-
-
 export const login = (email,password) => async(dispatch)=> {
 
     try {
@@ -60,7 +56,6 @@ export const login = (email,password) => async(dispatch)=> {
         });
     }
 }
-
 
 export const logout = () => async(dispatch)=> {
 
@@ -155,7 +150,6 @@ export const updateUser = (name,email,password ,skills,about) => async(dispatch)
         });
     }
 }
-
 
 export const addTimeline = (title, description, date) => async(dispatch)=> {
 

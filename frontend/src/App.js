@@ -7,26 +7,17 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import Login from './components/Login/Login';
-import { useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { getUser, loadUser } from './actions/user';
 import AdminPanel from './components/AdminPanel/AdminPanel';
 import Timeline from './components/AdminPanel/Timeline';
 import Youtube from './components/AdminPanel/Youtube';
 import Project from './components/AdminPanel/Project';
+import user from "./data/user.json";
 
 function App() {
-  const dispatch = useDispatch();
-  const { isAuthenticated } = useSelector((state) => state.login);
-  const { loading, user } = useSelector((state) => state.user);
-
-  useEffect(() => {
-    dispatch(getUser());
-    dispatch(loadUser());
-  }, [dispatch]);
+  const isAuthenticated = true;
 
   return <Router>
-    {loading && <div> Loading</div>}
+    {!user && <div> Loading</div>}
     {user && user.skills && user.youtube && user.timeline && (
       <>
         <Header />
