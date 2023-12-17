@@ -4,6 +4,7 @@ import { createReducer } from "@reduxjs/toolkit";
 const initialState = {
     loading: true
 }
+
 export const userReducer = createReducer(initialState, {
 
     "GET_USER_REQUEST": (state) => {
