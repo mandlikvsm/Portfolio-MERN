@@ -56,7 +56,7 @@
                 "public_id": "portfolio/ig1jpcydvxkbm3rjals4",
                 "url": "https://res.cloudinary.com/dgu0ehk89/image/upload/v1659865391/portfolio/ig1jpcydvxkbm3rjals4.png"
             },
-            "url": "https://portfolio-mern-three-lime.vercel.app/projects/",
+            "url": "https://portfolio-mern-three-lime.vercel.app/",
             "title": "my-portfolio",
             "description": "portfolio website with admin panel. dynamically update data",
             "techStack": "MongoDb,React Js, Express Js, Node Js, Redux-toolkit",
