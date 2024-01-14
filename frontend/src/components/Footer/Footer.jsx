@@ -19,7 +19,7 @@ const Footer = () => {
                     </Typography>
                 </Link>
 
-                <a download href={require("../../data/resume.pdf")} className="footerContactBtn">
+                <a download href={require("../../data/Resume_v1.pdf")} className="footerContactBtn">
                     <Typography>
                         Resume
                     </Typography>
